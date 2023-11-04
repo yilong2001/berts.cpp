@@ -32,19 +32,6 @@ typedef int socklen_t;
 #define SOCKET_HANDLE int
 #endif
 
-/*
-
-export LIBRARY_PATH=/usr/local/lib/oatpp-1.3.0:$LIBRARY_PATH
-export LD_LIBRARY_PATH=/usr/local/lib/oatpp-1.3.0:$LD_LIBRARY_PATH
-export CPLUS_INCLUDE_PATH=/usr/local/include/oatpp-1.3.0/oatpp:$CPLUS_INCLUDE_PATH
-
-
-export LIBRARY_PATH=/usr/local/lib64/oatpp-1.3.0:$LIBRARY_PATH
-export LD_LIBRARY_PATH=/usr/local/lib64/oatpp-1.3.0:$LD_LIBRARY_PATH
-export CPLUS_INCLUDE_PATH=/usr/local/include/oatpp-1.3.0/oatpp:$CPLUS_INCLUDE_PATH
-
-*/
-
 #define LABEL_COUNT 3
 
 #include OATPP_CODEGEN_BEGIN(DTO)
