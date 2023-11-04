@@ -123,7 +123,7 @@ Converting models is similar to llama.cpp. Use models/bert-classify-to-ggml.py t
 ```sh
 cd models
 # Clone a model from hf
-git clone https://huggingface.co/sentence-transformers/bert-base-uncased
+git clone [https://huggingface.co/yilong2001/bert_cls_example]
 # Run conversions to 4 ggml formats (f32, f16)
 sh run_conversions.sh bert-base-uncased 0
 ```
