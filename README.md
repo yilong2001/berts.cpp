@@ -27,6 +27,9 @@ The main goal of `berts.cpp` is to run the BERT model with simple binary on CPU
 git submodule update --init --recursive
 ```
 ### Download models
+Bert sequence classification model provided as a example. 
+You can download with the following cmd or directly from huggingface [https://huggingface.co/yilong2001/bert_cls_example].
+
 ```sh
 pip3 install -r requirements.txt
 python3 models/download-ggml.py download bert-base-uncased f32
