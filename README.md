@@ -1,5 +1,7 @@
 # berts.cpp
 
+基于 [ggml](https://github.com/ggerganov/ggml) 的 bert 模型家族推理服务，支持分类模型、seq2seq 文本生成模型等等.
+
 [ggml](https://github.com/ggerganov/ggml) inference of bert family models (bert, distilbert, roberta ...), classification & seq2seq and more.
 High quality bert inference in pure C++.
 
